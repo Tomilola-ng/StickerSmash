@@ -11,7 +11,9 @@
       "resizeMode": "contain",
       "backgroundColor": "#25292e"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -23,6 +25,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "56546ecb-0f57-4ff4-b659-9f12c2c8e3a7"
+      }
+    },
+    "owner": "tomilola_ng"
   }
 }

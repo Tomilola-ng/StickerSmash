@@ -41,7 +41,7 @@ export default function App() {
       setSelectedImage(result.assets[0].uri);
       setShowAppOptions(true);
     } else {
-      alert("You did not select any image.");
+      alert("You need to select an image.");
     }
   };
 
